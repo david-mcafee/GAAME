@@ -1,18 +1,74 @@
-The layout of the platform will utilize React/Redux to create the single-page app feel, but I’d like to make sure I’m understanding the components correctly. Also, time estimates for each feature also include styling - so that when a feature is completed, it is fully styled, and completely bug-free and deployable.
+# GAAME
 
-Name: GAAME
-join the game, get in the game
+[Heroku link][heroku]
+[heroku]: https://www.heroku.com
 
-Phases:
-- Initial set up / CDN / Github / general site-wide styling / front and back end secure authentication (10 hours)
-- Back-end (database, tables, API) (2 hours)
+## Design Docs
+* [View Wireframes][wireframes]
+* [API endpoints][api-endpoints]
+* [Component Hierarchy][component-hierarchy]
+* [Sample State][sample-state]
+* [DB schema][schema]
+
+[wireframes]: wireframes
+[api-endpoints]: api-endpoints.md
+[component-hierarchy]: component-hierarchy.md
+[sample-state]: sample-state.md
+[schema]: schema.md
+
+## Minimum Viable Product
+
+GAAME is a... [description here]
+
+- [ ] New account creation, login
+- [ ] Landing pages
+- [ ] "Cause": about, contact form
+- [ ] "Challenges" news feed / "Challenge" upload for both players and coaches
+- [ ] Video CRUD
+- [ ] Video player
+- [ ] Contact form
+
+## Implementation Timeline
+Note: Time estimates for each feature also include styling - so that when a feature is completed, it is fully styled, and completely bug-free and deployable.
+
+### Phase 1: Design / UI / Hosting / Backend Setup and Front End User Authentication (0 hours, 01/01/01, 11:59pm)
+**Objective:**
+- General site-wide styling / UI (4 hours)
+- Initial set up / CDN / Github / front and back end secure authentication (2 hours)
+- Rails back-end (database, tables, API) (2 hour)
+
+### Phase 2: Landing Page / Navigation Bar / Footer (2 hours)
+- Landing Page (.5 hours)
+  - description, sample videos, testimonials, etc
+- Navigation Bar (.5 hours)
+- Footer (1 hour)
+  - About
+  - Contact (form)
+  - FAQ
+  - Social media links
+
+### Phase 3: Videos Model, API, and Components (0 hours, 01/01/01, 11:59pm)
+
+**Objective:**
 - Video Index (3 hours)
+- Video Upload (1 hour)
+
+### Phase 3: Video Player (0 hours, 01/01/01, 11:59pm)
 - Video Player (3 hours)
-- Video upload (1 hour)
-- Comments (8 hours)
-- Forms (3 hours)
-- Do we want modals?
-- Footer (30 min)
+
+### Phase 4: Cause Info (0 hours, 01/31/17, 11:59pm)
+- About Page (1 hour)
+- Contact Form (1 hour)
+
+
+### 1.0
+- [ ] Subscriptions
+- [ ] Forum
+- [ ] Private webinars
+
+### 2.0
+- [ ] "Give" for "Cause"
+
 
 Pages / Components
 - Splash page
