@@ -1,4 +1,23 @@
-## Component Hierarchy
+# THIS IS UNFINISHED
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Component Hierarchy
 
 NOTE: REVISE FOR SPLASH PAGE
 
