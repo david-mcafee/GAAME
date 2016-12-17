@@ -10,11 +10,11 @@
 * [Sample State][sample-state]
 * [DB schema][schema]
 
-[wireframes]: wireframes
-[api-endpoints]: api-endpoints.md
-[component-hierarchy]: component-hierarchy.md
-[sample-state]: sample-state.md
-[schema]: schema.md
+[wireframes]: docs/wireframes
+[api-endpoints]: docs/api-endpoints.md
+[component-hierarchy]: docs/component-hierarchy.md
+[sample-state]: docs/sample-state.md
+[schema]: docs/schema.md
 
 ## Minimum Viable Product
 
