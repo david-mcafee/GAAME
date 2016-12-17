@@ -22,6 +22,7 @@
 
 GAAME is a... [description here]
 
+MVP Features:
 - [ ] New account creation, login
 - [ ] Landing pages
 - [ ] "Cause": about, contact form
