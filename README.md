@@ -35,13 +35,13 @@ MVP Features:
 Note: Time estimates for each feature also include styling - so that when a feature is completed, it is fully styled, and completely bug-free and deployable. Estimates do not include time for research, debugging, etc.
 
 ### Phase 1: Design / UI / Hosting / Backend Setup and Front End User Authentication
-####(13 hours, 01/31/17, 11:59pm)
+####(15 hours, 01/31/17, 11:59pm)
 
 **Objective:**
 - Hosting on Heroku (.5 hours)
 - Register domain, configure DNS settings, email redirect (.5 hours)
 - Register account with CDN, upload sample videos for testing (.5 hours)
-- General site-wide styling / UI / CSS (7 hours)
+- General site-wide styling / UI / CSS / Responsive CSS rules for mobile  (9 hours)
 - Initial set up / CDN / Github / front and back end secure authentication (2 hours)
 - Rails back-end (database, tables, API) (2 hours)
 - Component to display user terms and conditions (.5 hours)
@@ -78,7 +78,7 @@ Note: Time estimates for each feature also include styling - so that when a feat
 - About Page (1 hour)
 - Contact Form (1 hour)
 
-### Total Billable Hours: 25.5
+### Total Billable Hours: 27.5
 
 ### 1.0
 - [ ] Sign-up mailer
