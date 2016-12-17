@@ -1,9 +1,9 @@
 # GAAME
 
-[Heroku link][heroku]
+[(FUTURE) Heroku link][heroku]
 [heroku]: https://www.heroku.com
 
-## Design Docs
+## (NOT FINISHED) Design Docs
 * [View Wireframes][wireframes]
 * [API endpoints][api-endpoints]
 * [Component Hierarchy][component-hierarchy]
@@ -23,7 +23,7 @@ GAAME is a... [description here]
 - [ ] New account creation, login
 - [ ] Landing pages
 - [ ] "Cause": about, contact form
-- [ ] "Challenges" news feed / "Challenge" upload for both players and coaches
+- [ ] BETA news feed / post upload for both players and coaches ("Show your gaame (i.e. cause, challenge, tip)")
 - [ ] Video CRUD
 - [ ] Video player
 - [ ] Contact form
@@ -33,6 +33,9 @@ Note: Time estimates for each feature also include styling - so that when a feat
 
 ### Phase 1: Design / UI / Hosting / Backend Setup and Front End User Authentication (0 hours, 01/01/01, 11:59pm)
 **Objective:**
+- Hosting on Heroku
+- Register domain, configure DNS settings, email redirect
+- Register account with CDN, upload sample videos for testing
 - General site-wide styling / UI (4 hours)
 - Initial set up / CDN / Github / front and back end secure authentication (2 hours)
 - Rails back-end (database, tables, API) (2 hour)
@@ -68,43 +71,6 @@ Note: Time estimates for each feature also include styling - so that when a feat
 
 ### 2.0
 - [ ] "Give" for "Cause"
-
-
-Pages / Components
-- Splash page
-  - description, sample videos, testimonials, etc
-- Home page (first page upon log in)
-- Navigation bar
-- Should this home page be the list of videos, or a user landing / profile page?
-- Video List Component
-- Will this have subcategories? Or just one list of videos? Kind of wondering if there are any proposed ideas for how this would look (I’d be glad to propose specific suggestions if there are none)
-- Video Item
-  - This could be a designated page, or a modal (i.e. “pop up”). Is there a preferences
-
-- Player Challenge Videos
-  - Player Challenge Component
-    - Nested under each video item
-- Is there a preference for Facebook comments / local comments?
-- Footer
-  - About
-  - Contact (form)
-  - FAQ
-  - Social media links
-
-
-- [ ] Production README
-- [ ] Hosting on Heroku
-- [ ] Basic design / implementation docs
-- [ ] Register domain, configure domain and email redirect
-  * Does NameCheap offer email?
-- [ ] New account creation, login (require subscription) **
-  - Player / Coach
-- [ ]
-- [ ] Footer? Social media icons and links **
-- [ ] Video CRUD (available to admin only)
-- [ ] Video hosting on CDN (Cloudinary or AWS)
-- [ ] Playing videos (progress bar with continuous play)
-   * I'm thinking implement as a modal
 - [ ] Facebook integration page (or a Facebook-like wall) for challenge videos to be posted for and from players **
 - [ ] User pages
    * Items: member since, photo, subscription end date
@@ -127,8 +93,3 @@ Pages / Components
  * Find examples of good sports-related styling / fonts / color preferences
  * Learn to use React modal for video and forms
  * Could be helpful to have testimonials, inspirational quotes, bio, social media presence
-
-
-Inspiration:
-http://www.paulrabilexperience.com/
-# GAAME
