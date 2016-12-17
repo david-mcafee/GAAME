@@ -32,51 +32,65 @@ MVP Features:
 - [ ] Contact form
 
 ## Implementation Timeline
-Note: Time estimates for each feature also include styling - so that when a feature is completed, it is fully styled, and completely bug-free and deployable.
+Note: Time estimates for each feature also include styling - so that when a feature is completed, it is fully styled, and completely bug-free and deployable. Does not include time for research, debugging, etc.
 
-### Phase 1: Design / UI / Hosting / Backend Setup and Front End User Authentication (0 hours, 01/01/01, 11:59pm)
+### Phase 1: Design / UI / Hosting / Backend Setup and Front End User Authentication
+####(13 hours, 12/25/16, 11:59pm)
+
 **Objective:**
-- Hosting on Heroku
-- Register domain, configure DNS settings, email redirect
-- Register account with CDN, upload sample videos for testing
-- General site-wide styling / UI (4 hours)
+- Hosting on Heroku (.5 hours)
+- Register domain, configure DNS settings, email redirect (.5 hours)
+- Register account with CDN, upload sample videos for testing (.5 hours)
+- General site-wide styling / UI (7.5 hours)
 - Initial set up / CDN / Github / front and back end secure authentication (2 hours)
-- Rails back-end (database, tables, API) (2 hour)
+- Rails back-end (database, tables, API) (2 hours)
 
-### Phase 2: Landing Page / Navigation Bar / Footer (2 hours)
+### Phase 2: Landing Page / Navigation Bar / Footer
+####(2 hours, 12/28/16, 11:59pm)
+
+**Objective:**
 - Landing Page (.5 hours)
   - description, sample videos, testimonials, etc
 - Navigation Bar (.5 hours)
-- Footer (1 hour)
+- Footer and info pages (1 hour)
   - About
   - Contact (form)
   - FAQ
   - Social media links
 
-### Phase 3: Videos Model, API, and Components (0 hours, 01/01/01, 11:59pm)
+### Phase 3: Videos Model, API, and Components
+####(4 hours, 01/01/01, 11:59pm)
 
 **Objective:**
 - Video Index (3 hours)
 - Video Upload (1 hour)
 
-### Phase 3: Video Player (0 hours, 01/01/01, 11:59pm)
-- Video Player (3 hours)
+### Phase 3: Video Player
+####(4 hours, 01/01/01, 11:59pm)
 
-### Phase 4: Cause Info (0 hours, 01/31/17, 11:59pm)
+**Objective:**
+- Video Player (4 hours)
+
+### Phase 4: Cause Info
+####(2 hours, 01/01/01, 11:59pm)
+
+**Objective:**
 - About Page (1 hour)
 - Contact Form (1 hour)
 
+### Total Billable Hours: 25
 
 ### 1.0
-- [ ] Subscriptions
-- [ ] Forum
-- [ ] Private webinars
+- [ ] News feed / possible Facebook integration
+- [ ] Subscriptions / Payment
+- [ ] Coach Forum
+- [ ] Private webinars / scheduling
 
 ### 2.0
-- [ ] "Give" for "Cause"
-- [ ] Facebook integration page (or a Facebook-like wall) for challenge videos to be posted for and from players **
+- [ ] Donations for "Cause"
 - [ ] User pages
    * Items: member since, photo, subscription end date
+- [ ] Badges (see Khan Academy for examples)
 - [ ] Payment processing (Stripe or PayPal?)
    * Evaluate cost and benefits of Stripe vs. PayPal vs. other
    * Look into Koudoku gem for subscription handling

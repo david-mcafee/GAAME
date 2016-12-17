@@ -43,11 +43,11 @@ NOTE: REVISE FOR SPLASH PAGE
           - TrackComments
             - CreateComment
             - CommentIndex
-  - Footer (bonus)
-  - **AudioPlayerContainer**
-    - AudioPlayer
-      - Player
-      - SongInfo
+    - **AudioPlayerContainer**
+      - AudioPlayer
+        - Player
+        - SongInfo
+  - Footer  
 
 
 ## Routes

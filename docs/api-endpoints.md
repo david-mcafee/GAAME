@@ -1,22 +1,3 @@
-# THIS IS UNFINISHED
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # API Endpoints
 
 ## HTML API
@@ -38,18 +19,32 @@
 - `DELETE /api/session`
 - `GET /api/session`
 
-### Tracks
+### Videos
 
-- `GET /api/tracks`
-- `POST /api/tracks`
-- `GET /api/tracks/:id`
-- `PATCH /api/tracks/:id`
-- `DELETE /api/tracks/:id`
+- `GET /api/videos`
+- `POST /api/videos`
+- `GET /api/videos/:id`
+- `PATCH /api/videos/:id`
+- `DELETE /api/videos/:id`
 
+### Posts
+
+- `GET /api/posts`
+- `POST /api/posts`
+- `GET /api/posts/:id`
+- `PATCH /api/posts/:id`
+- `DELETE /api/posts/:id`
+
+### Upvotes
+
+- `GET /api/posts/:post_id/upvotes`
+- `POST /api/posts/:post_id/upvotes`
+- `PATCH /api/posts/:post_id/upvotes/upvotes_id`
+- `DELETE /api/posts/:post_id/upvotes/upvotes_id`
 
 ### Comments
 
-- `GET /api/tracks/:track_id/comments`
-- `POST /api/tracks/:track_id/comments`
-- `PATCH /api/tracks/:track_id/comments/:comment_id`
-- `DELETE /api/tracks/:track_id/comments/:comment_id`
+- `GET /api/posts/:post_id/comments`
+- `POST /api/posts/:post_id/comments`
+- `PATCH /api/posts/:post_id/comments/:comment_id`
+- `DELETE /api/posts/:post_id/comments/:comment_id`
