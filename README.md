@@ -3,6 +3,8 @@
 [(FUTURE) Heroku link][heroku]
 [heroku]: https://www.heroku.com
 
+![Product Flow](/docs/product_flow.png?raw=true "Product Flow")
+
 ## (NOT FINISHED) Design Docs
 * [View Wireframes][wireframes]
 * [API endpoints][api-endpoints]
